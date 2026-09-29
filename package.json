@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-mime-lookup",
+  "version": "1.0.0",
+  "description": "Looks up common MIME types by file extension and preferred extensions by MIME type.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.mime-lookup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.mime-lookup/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.mime-lookup#readme",
+  "keywords": [
+    "mime",
+    "content-type",
+    "extension",
+    "web"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
